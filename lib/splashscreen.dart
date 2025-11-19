@@ -12,11 +12,12 @@ class SplashScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Lottie.network(
-              "https://lottie.host/edcc61fc-a325-4b8d-9ca2-05657fde4a45/uZ0jxfHzlI.json",
+            Lottie.asset(
+              "asset/splash.json",
               width: 200,
               height: 200,
             ),
+
             const SizedBox(height: 20),
             Text(
               "Weather App",
